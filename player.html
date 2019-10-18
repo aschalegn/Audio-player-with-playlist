@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Your ultimate music App">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="player.css">
+    <title> Music Player </title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <article class="player">
+            <section class="music-detail">
+                <img class="singer-image" src="" alt="">
+                <h1 class="music-title">  </h1>
+            </section>
+            <div class="playlist">
+                
+            </div>
+            <section class="music-list">  
+                <audio preload="none" tabindex="">
+                    <source data-src="./music/Abinet Agonafir- yewnet menged.mp3" type="audio/mp3" 
+                    data-title="Abinet Agonafir- yewnet menged" data-img="images/abinnet-agonaffir.jpg" 
+                    data-track="1" data-artist="abinnet-agonaffir"  />
+
+                    <source data-src="./music/Nhatty Man ናቲ ማን - ማመስገኛዬ Mamesgegnaye.mp3" type="audio/mp3"
+                    data-title="Nhatty Man ናቲ ማን - ማመስገኛዬ Mamesgegnaye" data-img="images/naty-man.jpg"
+                    data-track="2" data-artist="Nhatty Man" />
+
+                    <source data-src="./music/Bob Marley - is this love.mp3" type="audio/mp3"
+                    data-title="Bob Marley - is this love" data-img="images/bob-marley.jpg" 
+                    data-track="3" data-artist="bob-marley" />
+                </audio>
+                <!-- <audio src="./music/Abinet Agonafir- yewnet menged.mp3"></audio> -->
+            </section>
+
+            <section class="player-controller">
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-play-circle play"></i>
+                <i class="fas fa-pause-circle pause"></i>
+                <i class="fas fa-forward"></i>
+            </section>
+        </article>
+
+    </main>
+    <script src="player.js"></script>
+</body>
+</html>
