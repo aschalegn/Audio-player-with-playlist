@@ -9,10 +9,10 @@ body {
 }
 
 .player {
-    width: 30vw;
-    height: 80vh;
+    width: 40%;
+    height: 100vh;
     position: relative;
-    top: 10vh;
+    /* top: 5vh; */
     margin: auto;
     background-image: linear-gradient(to left bottom, #121261, #0bc1e6);
     border: 1px solid;
@@ -30,7 +30,7 @@ body {
 }
 
 .music-detail {
-    width: 95%;
+    width: 98%;
     margin: auto;
     height: 100%;
 }
@@ -55,14 +55,25 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
-    .player{
-        width: 40%;
+@media only screen and (max-width: 768px) {
+    .player {
+        width: 60%;
+        height: 100vh;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .player {
+        width: 70%;
+        height: 100vh;
+        top: 0;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    .player{
-        width: 90%;
+    .player {
+        width: 98%;
+        /* height: 100vh; */
     }
 }

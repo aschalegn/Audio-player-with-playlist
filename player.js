@@ -18,12 +18,13 @@ musicSrc.forEach((src, i) => {
 let audio = document.querySelector('audio');
 let playing = playList[0];
 let playit = 0
-audio.setAttribute('src', playing.src);
+audio.setAttribute.src = playing.src;
 document.querySelector('.singer-image').src = playing.Image;
 document.querySelector('.music-title').innerText = playing.track + '. ' + playing.title;
 
 function nextPrev() {
     playing = playList[playit];
+    audio.pause();
     audio.src = playing.src;
     audio.play();
     // Put the track information on the DOM
